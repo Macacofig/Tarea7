@@ -1,3 +1,4 @@
+
 div
 {
 background-color: orange;
@@ -118,11 +119,16 @@ height: 150px;
 background-color:rgb(94, 161, 145);
 }
 
-
+.padre p
+{
+    color: #915EA1;
+}
 /*
 .Clase
 #Id
 etiqueta (div,button): accion
 etiqueta [caracteristica que tiene]
 etiqueta (p):: especial
+.clase1, .clase2, .clase3 aplicar a varios un estilo
+.clase etiqueta (afectar la etiqueta dentro de la etiqueta con clase)
 */
