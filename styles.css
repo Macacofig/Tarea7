@@ -1,4 +1,4 @@
-
+/*
 div
 {
 background-color: orange;
@@ -10,7 +10,8 @@ p
 {
 color: orange;
 }
-/*rbg paleta de colores*/
+
+rbg paleta de colores
 .caja{
 width: 150px;
 height: 150px;
@@ -21,7 +22,8 @@ margin: 10px;
 text-align: center;
 line-height: 150px;
 }
-/*rgb con transparencia rgba*/
+
+rgb con transparencia rgba
 .otra_caja
 {
 width: 150px;
@@ -33,7 +35,8 @@ margin: 10px;
 text-align: center;
 line-height: 150px;
 }
-/*Hexagecimal*/
+
+Hexagecimal
 .una_casa_mas
 {
 width: 150px;
@@ -45,7 +48,8 @@ margin: 10px;
 text-align: center;
 line-height: 150px;
 }
-/*con cliente (hsl) / con transparencia (hsla)*/
+
+con cliente (hsl) / con transparencia (hsla)
 .capibara
 {
 width: 150px;
@@ -123,6 +127,7 @@ background-color:rgb(94, 161, 145);
 {
     color: #915EA1;
 }
+*/
 /*
 .Clase
 #Id
@@ -131,4 +136,108 @@ etiqueta [caracteristica que tiene]
 etiqueta (p):: especial
 .clase1, .clase2, .clase3 aplicar a varios un estilo
 .clase etiqueta (afectar la etiqueta dentro de la etiqueta con clase)
+
+p#unico.foo
+{
+    color:red;
+}
+
+p#unico.foo.bar
+{
+    color:green;
+}
+
+p#unico
+{
+    color: chocolate;
+}
+p.foo
+{
+    color:blue;
+}
+p
+{
+    color:orange;
+}
+p#unico.foo.bar.baz
+{
+    color: purple ;
+}
+
+.main 
+{
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special 
+{
+    color: violet;
+    font-weight: bold;
+}
+
+.rectangulo 
+{
+    width: 200px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid #ccc;
+    margin: 10px;
+}
+
+.caja
+{
+    width: 50%;
+    height: 250px;
+    background-color: olivedrab;
+}
+
+.cajaInterior
+{
+    width: 50%;
+    height: 50%;
+    background-color: #915EA1;
+    margin: 10px;
+}
+
+.cajaInterior p
+{
+    font-size: 2rem;
+}
+
+*
+{
+    margin: 0;
+}
+
+div
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
 */
+body
+{
+    margin: 0;
+}
+div
+{
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    /*
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-left: 12px solid black;
+    border-right: 12px solid black;
+    border-top: 12px dashed black;
+    border-bottom: 12px dashed black;
+    */
+    padding:25px;
+    border:12px solid black;
+    margin: 25px;
+}
